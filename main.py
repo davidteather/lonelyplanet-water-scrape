@@ -28,7 +28,6 @@ if scrape:
                     #        cities.append(x['fieldPlcName'] + "\t" + x['fieldPlcAncestry'][0]['entity']['fieldPlcSlug'])
                     #else:
                     if x['fieldPlcSlug'] != None and x['fieldPlcSlug'] != None:
-                        print("x")
                         cities.append(x['fieldPlcName'] + "\t" + x['fieldPlcSlug'])
                     offset += 1
 
